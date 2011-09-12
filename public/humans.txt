@@ -1,0 +1,62 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  Developer: Ed van Beinum
+  Site: http://edvanbeinum.com
+  Twitter: @edvanbeinum
+  Location: London
+
+/* THANKS */
+  Tim Paris Howe (http://timparishowe.com): For the the awesome Illustration work
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery, jQueryUI, Google Maps API v3, Tweetable, Grid978 http://978.gs/
+  Software: NodeJS using ExpressJS http://expressjs.com/ and EJS templates http://embeddedjs.com/
+  Hosted: dotCloud https://www.dotcloud.com/
+  
+                                __
+                               /  \      __
+   .---.                  _   /   /   _.~  \
+   \    `.               / \ /   /.-~    __/
+    `\    \              |  |   |/    .-~ __
+      \    \             |  |   |   .'--~~  \
+       \    \            |  |   `  ' _______/
+        \    \           |  `        /
+    .--. \    \          |    `     /
+    \   `.\    \          \        /
+     `\   \     \          `\     (
+       \   \     \           > ,-.-.
+        \   `.    \         /  |  \ \
+         \    .    \       /___| O |O\     ,
+      .-. \    ;    |    /`    `^-.\.-'`--'/
+      \  `;         |   |                 /
+       `\  \        |   `.     `--..____,'
+         \  `.      |     `._     _.-'^
+          \   .     /         `|`|`
+        .-.\       /           | |
+        \  `\     /            | |
+         `\  `   |             | |
+           \     |             | |
+          .-.    |             | |
+          \  `.   \            | |
+           `\      \           | |
+             \      \          | |
+              \_____ :-'~~~~~'-' ;
+              /____;``-.         :
+             <____(     `.       ;
+               \___\     ;     .'
+                  /``--'~___.-'
+                 /\___/^/__/
+                /   /' /`/'
+                \  \   `\ \
+                 `\ \    \ \
+                   \ \    \ \
+                    \ \    \ \
+                     \ \    \ \     ______
+                      \ \ ___\ \'~``______)>
+                 jgs   \ \___ _______ __)>
+                   _____\ \'~``______)>
+                 <(_______.._______)>

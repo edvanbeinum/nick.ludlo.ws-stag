@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Ludlow's Stag</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/images/favicon.ico">
+<link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
+<link type="text/plain" rel="author" href="http://nick.ludlo.ws/humans.txt" />
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald&amp;v2">
+<script src="/javascripts/libs/modernizr-1.7.min.js"></script>
+</head>
+<!--
+                                __
+                               /  \      __
+   .---.                  _   /   /   _.~  \
+   \    `.               / \ /   /.-~    __/
+    `\    \              |  |   |/    .-~ __
+      \    \             |  |   |   .'--~~  \
+       \    \            |  |   `  ' _______/
+        \    \           |  `        /
+    .--. \    \          |    `     /
+    \   `.\    \          \        /
+     `\   \     \          `\     (
+       \   \     \           > ,-.-.
+        \   `.    \         /  |  \ \
+         \    .    \       /___| O |O\     ,
+      .-. \    ;    |    /`    `^-.\.-'`--'/
+      \  `;         |   |                 /
+       `\  \        |   `.     `--..____,'
+         \  `.      |     `._     _.-'^
+          \   .     /         `|`|`
+        .-.\       /           | |
+        \  `\     /            | |
+         `\  `   |             | |
+           \     |             | |
+          .-.    |             | |
+          \  `.   \            | |
+           `\      \           | |
+             \      \          | |
+              \_____ :-'~~~~~'-' ;
+              /____;``-.         :
+             <____(     `.       ;
+               \___\     ;     .'
+                  /``--'~___.-'
+                 /\___/^/__/
+                /   /' /`/'
+                \  \   `\ \
+                 `\ \    \ \
+                   \ \    \ \
+                    \ \    \ \
+                     \ \    \ \     ______
+                      \ \ ___\ \'~``______)>
+                 jgs   \ \___ _______ __)>
+                   _____\ \'~``______)>
+                 <(_______.._______)>
+
+ //-->
+	<body>
+		<div class="layout-978">
+			<div class="left">
+				<div class="col5 container main">
+					<div class="badge"><img src="/images/badge.png" /></div>
+					<h1>Ludlo.ws/Stag</h1>
+					<p>Welcome to the inaugral and exaugral stag event for Nicholas Alexander Ludlow. 20-21st August 2011.</p>
+					
+					<hr />
+
+					<span><a href="#" onclick="return showElement('#saturday')"><img src="images/button-itinerary.png" /></a></span>
+					<h2>Saturday</h2>
+					
+					<p>Go Karting, Dinner, Drinks, Club</p>
+
+					<hr />
+
+					<span><a href="#" onclick="return showElement('#sunday')"><img src="images/button-itinerary.png" /></a></span>
+					<h2>Sunday</h2>					
+					<p>Lunch, Kareoke, Drinks</p>
+
+					<hr />
+
+					<h3>I'm in! Now what?</h3>
+					<p>Great, welcome aboard! The cost works out at £110  for the whole weekend (that covers Karting, transport to and from the track and a private Kareoke booth on Sunday). It would be massively helpful if you would be a dear and <a href="#" onclick="return showElement('#pay')">Pay now using Paypal</a> (no need for a Paypal account). Or if you;d rather do a direct bank transfer, <a href="#" onclick="return showElement('#contact')">drop me an email</a> for my account details. Thanks!</p>
+					<p>Other nonsense:</p>
+					<ul>
+						<li><strong>Twitter stream</strong>, use the hashtag <a href="#" onclick="return showElement('#twitter')">#luddles</a></li>
+						<li><strong>Flickr Group</strong>, if you have a Flickr account you can add pictures from the weekend to the private <a href="http://www.flickr.com/groups/1745963@N23/">Flickr Group</a>. <a href="#" onclick="return showElement('#contact')">Send me</a> you Flickr username and I'll add you as a member</li>
+						<li><strong>Facebook Group</strong>. Again, this is private, if I haven't added you already send a me a <a href="http://facebook.com/edvanbeinum">friend request</a> and I'll add you to the group.</li>
+					</ul>
+					<p class="credits">Background illustration by <a href="http://timparishowe.com">Tim Howe</a>. Hire him, he is awesome.</p>
+				</div>
+			</div>
+			<div class="right">
+				<div id="saturday" class="col5 container">
+					<h1>Saturday</h1>
+
+					<p>You can view the pertinent landmarks on a single map <a href="
+http://is.gd/wAO1ec">here</a></p>
+
+					<h3>3:30pm </h3>
+					<p>Meet at Ariana's Cafe, 67 Fonthill Road, Finsbury Park London, N4 3HZ </p>
+					<div id="meetMap" class="map"></div>
+
+					<h3>4:00pm </h3>
+					<p>Depart Ariana's for Go-Karting at <a href="http://www.team-sport.co.uk/london-north/">Teamsport Edmunton</a></p>
+					<div id="teamsportMap" class="map"></div>
+					
+					<h3>6pm </h3>
+					<p>Leave track and transport to Camden</p>
+					
+					<h3>7pm </h3>
+					<p>Dinner at <a href="http://http://www.belgo-restaurants.co.uk/">Belgo's</a>, 72 Chalk Farm Road, NW1 8AN</p>
+					<div id="dinerMap" class="map"></div>
+					
+					<h3>8:30pm</h3>
+					<p>Drinks at The Monarch, Camden</p>
+					
+					<h3>12pm </h3>
+					<p>Club</p>
+				</div>
+				
+				<div id="sunday" class="col5 container">
+					<h1>Sunday</h1>
+
+					<h3>2pm </h3>
+					<p>Late Lunch</p>
+
+					<h3>3pm onwards</h3><p>Karaoke at the Bloomsbury Lanes. Tavistock Square</p>
+				</div>
+
+				<div id="pay" class="col5 container">
+					<h2>Pay</h2>
+					<p>The total cost comes to £110 and that covers go karting, transport to and from the track in a daft Hummer limo and the pub venue hire on Saturday and Sunday it covers the cost of the Karaoke booth.</p>
+					
+									
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="MCRGLFPLXGKNG">
+						<input type="image" src="/images/button-pay-now.png" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+					</form>
+		
+
+				</div>
+
+				<div id="twitter" class="col5 container">
+					<h2>Twitter stream</h2>
+					<p>The 'official' hashtag is <a href="https://twitter.com/search/%23luddles">#luddles</a> so tweet away.</p>
+					<div id="tweetstream"></div>
+				</div>
+				<div id="contact" class="col5 container">
+					<h2>Contact</h2>
+					
+					<p>For all and sundry topics:</p>
+					<p><a href='mailto:e@edvanbeinum.com'>e@edvanbeinum.com</a><br />
+					<a href='http://twitter.com/edvanbeinum'>@edvanbeinum</a><br />
+					<a href='http://facebook.com/edvanbeinum'>Facebook</a><br />
+					07787 161117</p>
+				</div>
+			</div>
+		
+		</div>
+		
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+  	<script>window.jQuery || document.write("<script src='/javascripts/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+	<script src="/javascripts/plugins.js"></script>
+	<script src="/javascripts/script.js"></script>
+
+	 <!--[if lt IE 7 ]>
+    <script src="js/libs/dd_belatedpng.js"></script>
+    <script>DD_belatedPNG.fix("img, .png_bg");</script>
+  <![endif]-->
+	</body>
+</html>
